@@ -1,0 +1,165 @@
+#app-features-row {
+  margin-bottom: 64px;
+}
+
+.af-mrg-btm {
+  margin-bottom: 32px;
+}
+
+.af-mrg-top {
+  margin-top: 32px;
+}
+
+.app-features-list .media {
+  margin-top: 32px;
+}
+
+.app-features-list .media-body {
+  text-align: center;
+}
+
+.app-features-list .media-right {
+  display: table-header-group;
+  padding: 0;
+  text-align: center;
+}
+
+.app-features-list .media-left {
+  display: block;
+  padding: 0;
+  text-align: center;
+}
+
+.app-features-list .media-heading {
+  cursor: pointer;
+}
+
+.active-feature .media-heading {
+  color: #337ab7;
+}
+
+.app-features-list .app-feature-icon {
+  font-size: xx-large;
+  background-color: #000;
+  color: #fff;
+  padding: 16px;
+  margin-left: 0;
+  margin-bottom: 24px;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.active-feature .app-feature-icon {
+  background-color: #337ab7;
+  color: #fff;
+}
+
+.app-features-list .iphone-mockup {
+  position: relative;
+  max-width: 300px;
+  margin: 64px auto;
+}
+
+.app-features-list .iphone-mockup img.device {
+  width: 100%;
+  height: auto;
+}
+
+.app-features-list .iphone-mockup .screen {
+  position: absolute;
+  width: 88%;
+  height: 77%;
+  top: 12%;
+  border-radius: 2px;
+  left: 6%;
+  border: 1px solid #444;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+.iphone-mockup .screen:before {
+  content: '';
+  background-color: #fff;
+  position: absolute;
+  width: 70%;
+  height: 140%;
+  top: -12%;
+  right: -60%;
+  transform: rotate(-19deg);
+  opacity: 0.2;
+}
+
+#app-features-list-carousel {
+  position: absolute;
+  width: 88%;
+  height: auto;
+  top: 12%;
+  left: 6%;
+}
+
+@media (min-width:767px) and (max-width:992px) {
+  .app-features-list .media-body p {
+    padding: 16px 64px 0;
+  }
+}
+
+@media (min-width:992px) {
+  .af-mrg-btm {
+    margin-bottom: 96px;
+  }
+}
+
+@media (min-width:992px) {
+  .app-features-list .media {
+    margin-top: 64px;
+  }
+}
+
+@media (min-width:992px) {
+  .app-features-list .media-body {
+    text-align: left;
+  }
+}
+
+@media (min-width:992px) {
+  .app-features-list.afl-left .media-body {
+    text-align: right;
+  }
+}
+
+@media (min-width:992px) {
+  .app-features-list .media-right {
+    display: table-cell;
+    padding: 0 0 0 10px;
+    text-align: right;
+  }
+}
+
+@media (min-width:992px) {
+  .app-features-list .media-left {
+    display: table-cell;
+    padding: 0 10px 0 0;
+    text-align: left;
+  }
+}
+
+@media (min-width:992px) {
+  .app-features-list .media-right > .app-feature-icon {
+    margin-left: 16px;
+  }
+}
+
+@media (min-width:992px) {
+  .app-features-list .media-left > .app-feature-icon {
+    margin-right: 16px;
+  }
+}
+
+@media (min-width:992px) {
+  .app-features-list .iphone-mockup {
+    margin: -48px auto 0;
+  }
+}
+
